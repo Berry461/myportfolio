@@ -11,7 +11,7 @@ const projectsData = [
     description: "Add to Cart",
     image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Berry461/ecommerce",
     previewUrl: "https://ecommerce-tan-delta.vercel.app",
   },
   {
@@ -20,7 +20,7 @@ const projectsData = [
     description: "AI Generative Template",
     image: "/images/projects/2.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Berry461/brainwave",
     previewUrl: "https://berry461.github.io/brainwave",
   },
   {
@@ -29,7 +29,7 @@ const projectsData = [
     description: "Using PHP & MySQL as Backend",
     image: "/images/projects/3.jpeg",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Berry461/Bank-login-sys-with-phpnsql",
     previewUrl: "/",
   },
   {
@@ -47,7 +47,7 @@ const projectsData = [
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Berry461/A-simple-crud",
     previewUrl: "https://a-simple-crud.vercel.app",
   },
   {
@@ -56,7 +56,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/6.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Berry461/ai_interview",
     previewUrl: "https://ai-interview-fawn-seven.vercel.app/sign-in",
   },
 ];
