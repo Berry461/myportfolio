@@ -52,8 +52,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "AI Voice Interview Platform with Feedback",
+    description: "Allow Job Seekers to Practice Interview Questions",
     image: "/images/projects/6.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Berry461/ai_interview",
