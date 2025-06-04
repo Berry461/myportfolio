@@ -25,8 +25,8 @@ const HeroSection = () => {
   return (
     <section className="lg:py-16" id="home">
       <div className="grid grid-cols-1 sm:grid-cols-12 mt-23">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.5}}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
@@ -37,7 +37,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 'Opeyemi',
-                1000, 
+                1000,
                 'Web Developer',
                 1000,
                 'Front End Developer',
@@ -54,13 +54,13 @@ const HeroSection = () => {
             I'm a web developer working as Frontend Developer by myself.
           </p>
           <div>
-            <button 
+            <button
               onClick={scrollToContact}
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white transition-all duration-300"
             >
               Hire Me
             </button>
-            <button 
+            <button
               onClick={handleDownloadCV}
               className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3 transition-all duration-300"
             >
@@ -68,8 +68,8 @@ const HeroSection = () => {
             </button>
           </div>
         </motion.div>
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.5}}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0">
@@ -78,8 +78,8 @@ const HeroSection = () => {
               src="/images/hero-image.jpg"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={250}
-              height={250}
+              width={450}
+              height={450}
             />
           </div>
         </motion.div>
